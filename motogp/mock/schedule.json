@@ -1,0 +1,1894 @@
+{
+    "generated_at": "2023-04-03T01:59:38+00:00",
+    "schema": "https:\/\/schemas.sportradar.com\/sportsapi\/motogp\/v2\/schemas\/schedule.json",
+    "stages": [
+        {
+            "id": "sr:stage:1030981",
+            "description": "Grande Premio de Portugal 2023",
+            "scheduled": "2023-03-24T10:45:00+00:00",
+            "scheduled_end": "2023-03-26T14:00:00+00:00",
+            "type": "event",
+            "status": "Closed",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:11669",
+                "name": "Autodromo International Algarve",
+                "city": "Portimao",
+                "country": "Portugal",
+                "coordinates": "37.2313331,-8.6305163",
+                "country_code": "PRT",
+                "length": 4653,
+                "url_official": "http:\/\/www.autodromodoalgarve.com",
+                "curves_left": 7,
+                "curves_right": 8,
+                "laps": 66,
+                "debut": 2020,
+                "timezone": "Europe\/Lisbon"
+            },
+            "stages": [
+                {
+                    "id": "sr:stage:1030983",
+                    "description": "Practice 1",
+                    "scheduled": "2023-03-24T10:45:00+00:00",
+                    "scheduled_end": "2023-03-24T11:30:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1030985",
+                    "description": "Practice 2",
+                    "scheduled": "2023-03-24T15:00:00+00:00",
+                    "scheduled_end": "2023-03-24T16:00:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1030987",
+                    "description": "Practice 3",
+                    "scheduled": "2023-03-25T10:10:00+00:00",
+                    "scheduled_end": "2023-03-25T10:40:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1030991",
+                    "description": "Qualifying",
+                    "scheduled": "2023-03-25T10:50:00+00:00",
+                    "scheduled_end": "2023-03-25T11:30:00+00:00",
+                    "type": "qualifying",
+                    "single_event": false,
+                    "stages": [
+                        {
+                            "id": "sr:stage:1030993",
+                            "description": "Q1",
+                            "scheduled": "2023-03-25T10:50:00+00:00",
+                            "scheduled_end": "2023-03-25T11:05:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1030995",
+                            "description": "Q2",
+                            "scheduled": "2023-03-25T11:15:00+00:00",
+                            "scheduled_end": "2023-03-25T11:30:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        }
+                    ]
+                },
+                {
+                    "id": "sr:stage:1030997",
+                    "description": "Sprint",
+                    "scheduled": "2023-03-25T15:00:00+00:00",
+                    "scheduled_end": "2023-03-25T15:30:00+00:00",
+                    "type": "sprint_race",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1030999",
+                    "description": "Race",
+                    "scheduled": "2023-03-26T13:00:00+00:00",
+                    "scheduled_end": "2023-03-26T14:00:00+00:00",
+                    "type": "race",
+                    "single_event": false
+                }
+            ]
+        },
+        {
+            "id": "sr:stage:1032043",
+            "description": "Gran Premio de la Republica Argentina 2023",
+            "scheduled": "2023-03-31T13:45:00+00:00",
+            "scheduled_end": "2023-04-02T18:00:00+00:00",
+            "type": "event",
+            "status": "Closed",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:13618",
+                "name": "Autodromo Termas de Rio Hondo",
+                "city": "Santiago del Estero",
+                "country": "Argentina",
+                "coordinates": "-27.505194,-64.913744",
+                "country_code": "ARG",
+                "url_official": "http:\/\/autodromotermas.com",
+                "curves_left": 5,
+                "curves_right": 9,
+                "length": 4805,
+                "debut": 2014,
+                "timezone": "America\/Argentina\/Cordoba"
+            },
+            "stages": [
+                {
+                    "id": "sr:stage:1032045",
+                    "description": "Practice 1",
+                    "scheduled": "2023-03-31T13:45:00+00:00",
+                    "scheduled_end": "2023-03-31T14:30:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1032047",
+                    "description": "Practice 2",
+                    "scheduled": "2023-03-31T18:00:00+00:00",
+                    "scheduled_end": "2023-03-31T19:00:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1032049",
+                    "description": "Practice 3",
+                    "scheduled": "2023-04-01T13:10:00+00:00",
+                    "scheduled_end": "2023-04-01T13:40:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1032053",
+                    "description": "Qualifying",
+                    "scheduled": "2023-04-01T13:50:00+00:00",
+                    "scheduled_end": "2023-04-01T14:30:00+00:00",
+                    "type": "qualifying",
+                    "single_event": false,
+                    "stages": [
+                        {
+                            "id": "sr:stage:1032055",
+                            "description": "Q1",
+                            "scheduled": "2023-04-01T13:50:00+00:00",
+                            "scheduled_end": "2023-04-01T14:05:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1032057",
+                            "description": "Q2",
+                            "scheduled": "2023-04-01T14:15:00+00:00",
+                            "scheduled_end": "2023-04-01T14:30:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        }
+                    ]
+                },
+                {
+                    "id": "sr:stage:1032059",
+                    "description": "Sprint",
+                    "scheduled": "2023-04-01T18:00:00+00:00",
+                    "scheduled_end": "2023-04-01T18:30:00+00:00",
+                    "type": "sprint_race",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1032061",
+                    "description": "Race",
+                    "scheduled": "2023-04-02T17:00:00+00:00",
+                    "scheduled_end": "2023-04-02T18:00:00+00:00",
+                    "type": "race",
+                    "single_event": false
+                }
+            ]
+        },
+        {
+            "id": "sr:stage:1032263",
+            "description": "Grand Prix of The Americas 2023",
+            "scheduled": "2023-04-14T15:45:00+00:00",
+            "scheduled_end": "2023-04-16T20:00:00+00:00",
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:2940",
+                "name": "Circuit of The Americas",
+                "capacity": 100000,
+                "city": "Austin",
+                "country": "USA",
+                "coordinates": "30.132778,-97.641111",
+                "country_code": "USA",
+                "curves_right": 9,
+                "url_official": "http:\/\/circuitoftheamericas.com\/",
+                "laps": 56,
+                "length": 5513,
+                "curves_left": 11,
+                "debut": 2012,
+                "timezone": "America\/Chicago"
+            },
+            "stages": [
+                {
+                    "id": "sr:stage:1032265",
+                    "description": "Practice 1",
+                    "scheduled": "2023-04-14T15:45:00+00:00",
+                    "scheduled_end": "2023-04-14T16:30:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1032267",
+                    "description": "Practice 2",
+                    "scheduled": "2023-04-14T20:00:00+00:00",
+                    "scheduled_end": "2023-04-14T21:00:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1032269",
+                    "description": "Practice 3",
+                    "scheduled": "2023-04-15T15:10:00+00:00",
+                    "scheduled_end": "2023-04-15T15:40:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1032273",
+                    "description": "Qualifying",
+                    "scheduled": "2023-04-15T15:50:00+00:00",
+                    "scheduled_end": "2023-04-15T16:30:00+00:00",
+                    "type": "qualifying",
+                    "single_event": false,
+                    "stages": [
+                        {
+                            "id": "sr:stage:1032275",
+                            "description": "Q1",
+                            "scheduled": "2023-04-15T15:50:00+00:00",
+                            "scheduled_end": "2023-04-15T16:05:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1032277",
+                            "description": "Q2",
+                            "scheduled": "2023-04-15T16:15:00+00:00",
+                            "scheduled_end": "2023-04-15T16:30:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        }
+                    ]
+                },
+                {
+                    "id": "sr:stage:1032279",
+                    "description": "Sprint Race",
+                    "scheduled": "2023-04-15T20:00:00+00:00",
+                    "scheduled_end": "2023-04-15T20:30:00+00:00",
+                    "type": "sprint_race",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1032281",
+                    "description": "Race",
+                    "scheduled": "2023-04-16T19:00:00+00:00",
+                    "scheduled_end": "2023-04-16T20:00:00+00:00",
+                    "type": "race",
+                    "single_event": false
+                }
+            ]
+        },
+        {
+            "id": "sr:stage:1032483",
+            "description": "Gran Premio de Espana 2023",
+            "scheduled": "2023-04-28T08:45:00+00:00",
+            "scheduled_end": "2023-04-30T14:00:00+00:00",
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1612",
+                "name": "Circuit de Jerez",
+                "city": "Jerez",
+                "country": "Spain",
+                "coordinates": "36.708333,-6.034167",
+                "country_code": "ESP",
+                "length": 4423,
+                "curves_left": 5,
+                "curves_right": 8,
+                "url_official": "http:\/\/www.circuitodejerez.com",
+                "debut": 1984,
+                "timezone": "Europe\/Madrid"
+            },
+            "stages": [
+                {
+                    "id": "sr:stage:1032485",
+                    "description": "Practice 1",
+                    "scheduled": "2023-04-28T08:45:00+00:00",
+                    "scheduled_end": "2023-04-28T09:30:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1032487",
+                    "description": "Practice 2",
+                    "scheduled": "2023-04-28T13:00:00+00:00",
+                    "scheduled_end": "2023-04-28T14:00:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1032489",
+                    "description": "Practice 3",
+                    "scheduled": "2023-04-29T08:10:00+00:00",
+                    "scheduled_end": "2023-04-29T08:40:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1032493",
+                    "description": "Qualifying",
+                    "scheduled": "2023-04-29T08:50:00+00:00",
+                    "scheduled_end": "2023-04-29T09:30:00+00:00",
+                    "type": "qualifying",
+                    "single_event": false,
+                    "stages": [
+                        {
+                            "id": "sr:stage:1032495",
+                            "description": "Q1",
+                            "scheduled": "2023-04-29T08:50:00+00:00",
+                            "scheduled_end": "2023-04-29T09:05:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1032497",
+                            "description": "Q2",
+                            "scheduled": "2023-04-29T09:15:00+00:00",
+                            "scheduled_end": "2023-04-29T09:30:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        }
+                    ]
+                },
+                {
+                    "id": "sr:stage:1032499",
+                    "description": "Sprint Race",
+                    "scheduled": "2023-04-29T13:00:00+00:00",
+                    "scheduled_end": "2023-04-29T14:00:00+00:00",
+                    "type": "sprint_race",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1032501",
+                    "description": "Race",
+                    "scheduled": "2023-04-30T13:00:00+00:00",
+                    "scheduled_end": "2023-04-30T14:00:00+00:00",
+                    "type": "race",
+                    "single_event": false
+                }
+            ]
+        },
+        {
+            "id": "sr:stage:1032727",
+            "description": "Grand Prix de France 2023",
+            "scheduled": "2023-05-12T08:45:00+00:00",
+            "scheduled_end": "2023-05-14T13:00:00+00:00",
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1067",
+                "name": "Le Mans Bugatti Circuit",
+                "city": "Le Mans",
+                "country": "France",
+                "coordinates": "47.954772,0.21097",
+                "country_code": "FRA",
+                "length": 4422,
+                "debut": 1969,
+                "url_official": "http:\/\/www.gpfrancemoto.com",
+                "timezone": "Europe\/Paris"
+            },
+            "stages": [
+                {
+                    "id": "sr:stage:1032729",
+                    "description": "Practice 1",
+                    "scheduled": "2023-05-12T08:45:00+00:00",
+                    "scheduled_end": "2023-05-12T09:30:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1032731",
+                    "description": "Practice 2",
+                    "scheduled": "2023-05-12T13:00:00+00:00",
+                    "scheduled_end": "2023-05-12T14:00:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1032733",
+                    "description": "Practice 3",
+                    "scheduled": "2023-05-13T08:10:00+00:00",
+                    "scheduled_end": "2023-05-13T08:40:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1032737",
+                    "description": "Qualifying",
+                    "scheduled": "2023-05-13T08:50:00+00:00",
+                    "scheduled_end": "2023-05-13T09:30:00+00:00",
+                    "type": "qualifying",
+                    "single_event": false,
+                    "stages": [
+                        {
+                            "id": "sr:stage:1032739",
+                            "description": "Q1",
+                            "scheduled": "2023-05-13T08:50:00+00:00",
+                            "scheduled_end": "2023-05-13T09:05:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1032741",
+                            "description": "Q2",
+                            "scheduled": "2023-05-13T09:15:00+00:00",
+                            "scheduled_end": "2023-05-13T09:30:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        }
+                    ]
+                },
+                {
+                    "id": "sr:stage:1032743",
+                    "description": "Sprint Race",
+                    "scheduled": "2023-05-13T13:00:00+00:00",
+                    "scheduled_end": "2023-05-13T14:00:00+00:00",
+                    "type": "sprint_race",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1032745",
+                    "description": "Race",
+                    "scheduled": "2023-05-14T12:00:00+00:00",
+                    "scheduled_end": "2023-05-14T13:00:00+00:00",
+                    "type": "race",
+                    "single_event": false
+                }
+            ]
+        },
+        {
+            "id": "sr:stage:1032959",
+            "description": "Gran Premio d'Italia 2023",
+            "scheduled": "2023-06-09T08:45:00+00:00",
+            "scheduled_end": "2023-06-11T13:00:00+00:00",
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1066",
+                "name": "Autodromo Internazionale del Mugello",
+                "city": "Scarperia e San Piero",
+                "country": "Italy",
+                "coordinates": "43.997431,11.372031",
+                "country_code": "ITA",
+                "length": 5245,
+                "debut": 1974,
+                "url_official": "http:\/\/www.mugellocircuit.it\/",
+                "curves_left": 6,
+                "curves_right": 9,
+                "laps": 59,
+                "timezone": "Europe\/Rome"
+            },
+            "stages": [
+                {
+                    "id": "sr:stage:1032961",
+                    "description": "Practice 1",
+                    "scheduled": "2023-06-09T08:45:00+00:00",
+                    "scheduled_end": "2023-06-09T09:30:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1032963",
+                    "description": "Practice 2",
+                    "scheduled": "2023-06-09T13:00:00+00:00",
+                    "scheduled_end": "2023-06-09T14:00:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1032965",
+                    "description": "Practice 3",
+                    "scheduled": "2023-06-10T08:10:00+00:00",
+                    "scheduled_end": "2023-06-10T08:40:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1032969",
+                    "description": "Qualifying",
+                    "scheduled": "2023-06-10T08:50:00+00:00",
+                    "scheduled_end": "2023-06-10T09:30:00+00:00",
+                    "type": "qualifying",
+                    "single_event": false,
+                    "stages": [
+                        {
+                            "id": "sr:stage:1032971",
+                            "description": "Q1",
+                            "scheduled": "2023-06-10T08:50:00+00:00",
+                            "scheduled_end": "2023-06-10T09:05:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1032973",
+                            "description": "Q2",
+                            "scheduled": "2023-06-10T09:15:00+00:00",
+                            "scheduled_end": "2023-06-10T09:30:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        }
+                    ]
+                },
+                {
+                    "id": "sr:stage:1032975",
+                    "description": "Sprint Race",
+                    "scheduled": "2023-06-10T13:00:00+00:00",
+                    "scheduled_end": "2023-06-10T14:00:00+00:00",
+                    "type": "sprint_race",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1032977",
+                    "description": "Race",
+                    "scheduled": "2023-06-11T12:00:00+00:00",
+                    "scheduled_end": "2023-06-11T13:00:00+00:00",
+                    "type": "race",
+                    "single_event": false
+                }
+            ]
+        },
+        {
+            "id": "sr:stage:1033191",
+            "description": "Motorrad Grand Prix Deutschland 2023",
+            "scheduled": "2023-06-16T08:45:00+00:00",
+            "scheduled_end": "2023-06-18T13:00:00+00:00",
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1062",
+                "name": "Sachsenring",
+                "city": "Oberlungwitz",
+                "country": "Germany",
+                "coordinates": "50.791599,12.68861",
+                "country_code": "DEU",
+                "debut": 1950,
+                "url_official": "http:\/\/www.sachsenring-circuit.com\/",
+                "length": 3670,
+                "curves_left": 10,
+                "curves_right": 4,
+                "timezone": "Europe\/Berlin"
+            },
+            "stages": [
+                {
+                    "id": "sr:stage:1033193",
+                    "description": "Practice 1",
+                    "scheduled": "2023-06-16T08:45:00+00:00",
+                    "scheduled_end": "2023-06-16T09:30:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1033195",
+                    "description": "Practice 2",
+                    "scheduled": "2023-06-16T13:00:00+00:00",
+                    "scheduled_end": "2023-06-16T14:00:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1033197",
+                    "description": "Practice 3",
+                    "scheduled": "2023-06-17T08:10:00+00:00",
+                    "scheduled_end": "2023-06-17T08:40:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1033201",
+                    "description": "Qualifying",
+                    "scheduled": "2023-06-17T08:50:00+00:00",
+                    "scheduled_end": "2023-06-17T09:30:00+00:00",
+                    "type": "qualifying",
+                    "single_event": false,
+                    "stages": [
+                        {
+                            "id": "sr:stage:1033203",
+                            "description": "Q1",
+                            "scheduled": "2023-06-17T08:50:00+00:00",
+                            "scheduled_end": "2023-06-17T09:05:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1033205",
+                            "description": "Q2",
+                            "scheduled": "2023-06-17T09:15:00+00:00",
+                            "scheduled_end": "2023-06-17T09:30:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        }
+                    ]
+                },
+                {
+                    "id": "sr:stage:1033207",
+                    "description": "Sprint Race",
+                    "scheduled": "2023-06-17T13:00:00+00:00",
+                    "scheduled_end": "2023-06-17T14:00:00+00:00",
+                    "type": "sprint_race",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1033209",
+                    "description": "Race",
+                    "scheduled": "2023-06-18T12:00:00+00:00",
+                    "scheduled_end": "2023-06-18T13:00:00+00:00",
+                    "type": "race",
+                    "single_event": false
+                }
+            ]
+        },
+        {
+            "id": "sr:stage:1033423",
+            "description": "TT Assen 2023",
+            "scheduled": "2023-06-23T08:45:00+00:00",
+            "scheduled_end": "2023-06-25T13:00:00+00:00",
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1063",
+                "name": "TT Circuit Assen",
+                "city": "Assen",
+                "country": "Netherlands",
+                "coordinates": "52.962074,6.523558",
+                "country_code": "NLD",
+                "length": 4542,
+                "debut": 1949,
+                "url_official": "http:\/\/www.tt-assen.com\/",
+                "curves_left": 6,
+                "curves_right": 12,
+                "timezone": "Europe\/Amsterdam"
+            },
+            "stages": [
+                {
+                    "id": "sr:stage:1033425",
+                    "description": "Practice 1",
+                    "scheduled": "2023-06-23T08:45:00+00:00",
+                    "scheduled_end": "2023-06-23T09:30:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1033427",
+                    "description": "Practice 2",
+                    "scheduled": "2023-06-23T13:00:00+00:00",
+                    "scheduled_end": "2023-06-23T14:00:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1033429",
+                    "description": "Practice 3",
+                    "scheduled": "2023-06-24T08:10:00+00:00",
+                    "scheduled_end": "2023-06-24T08:40:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1033433",
+                    "description": "Qualifying",
+                    "scheduled": "2023-06-24T08:50:00+00:00",
+                    "scheduled_end": "2023-06-24T09:30:00+00:00",
+                    "type": "qualifying",
+                    "single_event": false,
+                    "stages": [
+                        {
+                            "id": "sr:stage:1033435",
+                            "description": "Q1",
+                            "scheduled": "2023-06-24T08:50:00+00:00",
+                            "scheduled_end": "2023-06-24T09:05:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1033437",
+                            "description": "Q2",
+                            "scheduled": "2023-06-24T09:15:00+00:00",
+                            "scheduled_end": "2023-06-24T09:30:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        }
+                    ]
+                },
+                {
+                    "id": "sr:stage:1033439",
+                    "description": "Sprint Race",
+                    "scheduled": "2023-06-24T13:00:00+00:00",
+                    "scheduled_end": "2023-06-24T14:00:00+00:00",
+                    "type": "sprint_race",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1033441",
+                    "description": "Race",
+                    "scheduled": "2023-06-25T12:00:00+00:00",
+                    "scheduled_end": "2023-06-25T13:00:00+00:00",
+                    "type": "race",
+                    "single_event": false
+                }
+            ]
+        },
+        {
+            "id": "sr:stage:1033643",
+            "description": "Kazakhstan motorcycle Grand Prix 2023",
+            "scheduled": "2023-07-07T05:15:00+00:00",
+            "scheduled_end": "2023-07-09T10:00:00+00:00",
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:66793",
+                "name": "Sokol International Racetrack",
+                "capacity": 74000,
+                "city": "Almaty",
+                "country": "Kazakhstan",
+                "coordinates": "43.584722,76.570556",
+                "country_code": "KAZ",
+                "length": 4495,
+                "timezone": "Asia\/Almaty"
+            },
+            "stages": [
+                {
+                    "id": "sr:stage:1033645",
+                    "description": "Practice 1",
+                    "scheduled": "2023-07-07T05:15:00+00:00",
+                    "scheduled_end": "2023-07-07T06:25:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1033647",
+                    "description": "Practice 2",
+                    "scheduled": "2023-07-07T09:30:00+00:00",
+                    "scheduled_end": "2023-07-07T10:40:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1033649",
+                    "description": "Practice 3",
+                    "scheduled": "2023-07-08T05:10:00+00:00",
+                    "scheduled_end": "2023-07-08T05:40:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1033653",
+                    "description": "Qualifying",
+                    "scheduled": "2023-07-08T05:50:00+00:00",
+                    "scheduled_end": "2023-07-08T06:30:00+00:00",
+                    "type": "qualifying",
+                    "single_event": false,
+                    "stages": [
+                        {
+                            "id": "sr:stage:1033655",
+                            "description": "Q1",
+                            "scheduled": "2023-07-08T05:50:00+00:00",
+                            "scheduled_end": "2023-07-08T06:05:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1033657",
+                            "description": "Q2",
+                            "scheduled": "2023-07-08T06:15:00+00:00",
+                            "scheduled_end": "2023-07-08T06:30:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        }
+                    ]
+                },
+                {
+                    "id": "sr:stage:1033659",
+                    "description": "Sprint Race",
+                    "scheduled": "2023-07-08T10:00:00+00:00",
+                    "scheduled_end": "2023-07-08T11:00:00+00:00",
+                    "type": "sprint_race",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1033661",
+                    "description": "Race",
+                    "scheduled": "2023-07-09T09:00:00+00:00",
+                    "scheduled_end": "2023-07-09T10:00:00+00:00",
+                    "type": "race",
+                    "single_event": false
+                }
+            ]
+        },
+        {
+            "id": "sr:stage:1033863",
+            "description": "British Grand Prix 2023",
+            "scheduled": "2023-08-04T09:45:00+00:00",
+            "scheduled_end": "2023-08-06T13:00:00+00:00",
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1019",
+                "name": "Silverstone Circuit",
+                "capacity": 150000,
+                "city": "Silverstone",
+                "country": "England",
+                "coordinates": "52.078346,-1.023273",
+                "country_code": "ENG",
+                "debut": 1950,
+                "curves_right": 10,
+                "laps": 52,
+                "url_official": "http:\/\/www.silverstone.co.uk\/",
+                "length": 5891,
+                "curves_left": 8,
+                "timezone": "Europe\/London"
+            },
+            "stages": [
+                {
+                    "id": "sr:stage:1033865",
+                    "description": "Practice 1",
+                    "scheduled": "2023-08-04T09:45:00+00:00",
+                    "scheduled_end": "2023-08-04T10:30:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1033867",
+                    "description": "Practice 2",
+                    "scheduled": "2023-08-04T14:00:00+00:00",
+                    "scheduled_end": "2023-08-04T15:00:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1033869",
+                    "description": "Practice 3",
+                    "scheduled": "2023-08-05T09:10:00+00:00",
+                    "scheduled_end": "2023-08-05T09:40:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1033873",
+                    "description": "Qualifying",
+                    "scheduled": "2023-08-05T09:50:00+00:00",
+                    "scheduled_end": "2023-08-05T10:30:00+00:00",
+                    "type": "qualifying",
+                    "single_event": false,
+                    "stages": [
+                        {
+                            "id": "sr:stage:1033875",
+                            "description": "Q1",
+                            "scheduled": "2023-08-05T09:50:00+00:00",
+                            "scheduled_end": "2023-08-05T10:05:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1033877",
+                            "description": "Q2",
+                            "scheduled": "2023-08-05T10:15:00+00:00",
+                            "scheduled_end": "2023-08-05T10:30:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        }
+                    ]
+                },
+                {
+                    "id": "sr:stage:1033879",
+                    "description": "Sprint Race",
+                    "scheduled": "2023-08-05T14:00:00+00:00",
+                    "scheduled_end": "2023-08-05T15:00:00+00:00",
+                    "type": "sprint_race",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1033881",
+                    "description": "Race",
+                    "scheduled": "2023-08-06T12:00:00+00:00",
+                    "scheduled_end": "2023-08-06T13:00:00+00:00",
+                    "type": "race",
+                    "single_event": false
+                }
+            ]
+        },
+        {
+            "id": "sr:stage:1034083",
+            "description": "Motorrad Grand Prix von \u00d6sterreich 2023",
+            "scheduled": "2023-08-18T08:45:00+00:00",
+            "scheduled_end": "2023-08-20T13:00:00+00:00",
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:2351",
+                "name": "Red Bull Ring",
+                "city": "Spielberg",
+                "country": "Austria",
+                "coordinates": "47.2195,14.764888",
+                "country_code": "AUT",
+                "laps": 71,
+                "curves_left": 3,
+                "curves_right": 7,
+                "debut": 1970,
+                "length": 4318,
+                "url_official": "http:\/\/www.projekt-spielberg.com",
+                "timezone": "Europe\/Vienna"
+            },
+            "stages": [
+                {
+                    "id": "sr:stage:1034085",
+                    "description": "Practice 1",
+                    "scheduled": "2023-08-18T08:45:00+00:00",
+                    "scheduled_end": "2023-08-18T09:30:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1034087",
+                    "description": "Practice 2",
+                    "scheduled": "2023-08-18T13:00:00+00:00",
+                    "scheduled_end": "2023-08-18T14:00:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1034089",
+                    "description": "Practice 3",
+                    "scheduled": "2023-08-19T08:10:00+00:00",
+                    "scheduled_end": "2023-08-19T08:40:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1034093",
+                    "description": "Qualifying",
+                    "scheduled": "2023-08-19T08:50:00+00:00",
+                    "scheduled_end": "2023-08-19T09:30:00+00:00",
+                    "type": "qualifying",
+                    "single_event": false,
+                    "stages": [
+                        {
+                            "id": "sr:stage:1034095",
+                            "description": "Q1",
+                            "scheduled": "2023-08-19T08:50:00+00:00",
+                            "scheduled_end": "2023-08-19T09:05:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1034097",
+                            "description": "Q2",
+                            "scheduled": "2023-08-19T09:15:00+00:00",
+                            "scheduled_end": "2023-08-19T09:30:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        }
+                    ]
+                },
+                {
+                    "id": "sr:stage:1034099",
+                    "description": "Sprint Race",
+                    "scheduled": "2023-08-19T13:00:00+00:00",
+                    "scheduled_end": "2023-08-19T14:00:00+00:00",
+                    "type": "sprint_race",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1034101",
+                    "description": "Race",
+                    "scheduled": "2023-08-20T12:00:00+00:00",
+                    "scheduled_end": "2023-08-20T13:00:00+00:00",
+                    "type": "race",
+                    "single_event": false
+                }
+            ]
+        },
+        {
+            "id": "sr:stage:1034303",
+            "description": "Gran Premi de Catalunya 2023",
+            "scheduled": "2023-09-01T08:45:00+00:00",
+            "scheduled_end": "2023-09-03T13:00:00+00:00",
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1014",
+                "name": "Circuit de Catalunya",
+                "capacity": 140700,
+                "city": "Barcelona",
+                "country": "Spain",
+                "coordinates": "41.57,2.261111",
+                "country_code": "ESP",
+                "debut": 1991,
+                "length": 4675,
+                "curves_left": 7,
+                "curves_right": 9,
+                "laps": 66,
+                "url_official": "https:\/\/www.circuitcat.com\/es\/formula-1\/",
+                "timezone": "Europe\/Madrid"
+            },
+            "stages": [
+                {
+                    "id": "sr:stage:1034305",
+                    "description": "Practice 1",
+                    "scheduled": "2023-09-01T08:45:00+00:00",
+                    "scheduled_end": "2023-09-01T09:30:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1034307",
+                    "description": "Practice 2",
+                    "scheduled": "2023-09-01T13:00:00+00:00",
+                    "scheduled_end": "2023-09-01T14:00:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1034309",
+                    "description": "Practice 3",
+                    "scheduled": "2023-09-02T08:10:00+00:00",
+                    "scheduled_end": "2023-09-02T08:40:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1034313",
+                    "description": "Qualifying",
+                    "scheduled": "2023-09-02T08:50:00+00:00",
+                    "scheduled_end": "2023-09-02T09:30:00+00:00",
+                    "type": "qualifying",
+                    "single_event": false,
+                    "stages": [
+                        {
+                            "id": "sr:stage:1034315",
+                            "description": "Q1",
+                            "scheduled": "2023-09-02T08:50:00+00:00",
+                            "scheduled_end": "2023-09-02T09:05:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1034317",
+                            "description": "Q2",
+                            "scheduled": "2023-09-02T09:15:00+00:00",
+                            "scheduled_end": "2023-09-02T09:30:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        }
+                    ]
+                },
+                {
+                    "id": "sr:stage:1034319",
+                    "description": "Sprint Race",
+                    "scheduled": "2023-09-02T13:00:00+00:00",
+                    "scheduled_end": "2023-09-02T14:00:00+00:00",
+                    "type": "sprint_race",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1034321",
+                    "description": "Race",
+                    "scheduled": "2023-09-03T12:00:00+00:00",
+                    "scheduled_end": "2023-09-03T13:00:00+00:00",
+                    "type": "race",
+                    "single_event": false
+                }
+            ]
+        },
+        {
+            "id": "sr:stage:1034523",
+            "description": "Gran Premio di San Marino 2023",
+            "scheduled": "2023-09-08T08:45:00+00:00",
+            "scheduled_end": "2023-09-10T13:00:00+00:00",
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1060",
+                "name": "Misano World Circuit",
+                "city": "Misano Adriatico",
+                "country": "Italy",
+                "coordinates": "43.961364,12.683075",
+                "country_code": "ITA",
+                "length": 4060,
+                "debut": 1972,
+                "url_official": "http:\/\/www.misanocircuit.com\/",
+                "timezone": "Europe\/Rome"
+            },
+            "stages": [
+                {
+                    "id": "sr:stage:1034525",
+                    "description": "Practice 1",
+                    "scheduled": "2023-09-08T08:45:00+00:00",
+                    "scheduled_end": "2023-09-08T09:30:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1034527",
+                    "description": "Practice 2",
+                    "scheduled": "2023-09-08T13:00:00+00:00",
+                    "scheduled_end": "2023-09-08T14:00:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1034529",
+                    "description": "Practice 3",
+                    "scheduled": "2023-09-09T08:10:00+00:00",
+                    "scheduled_end": "2023-09-09T08:40:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1034533",
+                    "description": "Qualifying",
+                    "scheduled": "2023-09-09T08:50:00+00:00",
+                    "scheduled_end": "2023-09-09T09:30:00+00:00",
+                    "type": "qualifying",
+                    "single_event": false,
+                    "stages": [
+                        {
+                            "id": "sr:stage:1034535",
+                            "description": "Q1",
+                            "scheduled": "2023-09-09T08:50:00+00:00",
+                            "scheduled_end": "2023-09-09T09:05:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1034537",
+                            "description": "Q2",
+                            "scheduled": "2023-09-09T09:15:00+00:00",
+                            "scheduled_end": "2023-09-09T09:30:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        }
+                    ]
+                },
+                {
+                    "id": "sr:stage:1034539",
+                    "description": "Sprint Race",
+                    "scheduled": "2023-09-09T13:00:00+00:00",
+                    "scheduled_end": "2023-09-09T14:00:00+00:00",
+                    "type": "sprint_race",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1034541",
+                    "description": "Race",
+                    "scheduled": "2023-09-10T12:00:00+00:00",
+                    "scheduled_end": "2023-09-10T13:00:00+00:00",
+                    "type": "race",
+                    "single_event": false
+                }
+            ]
+        },
+        {
+            "id": "sr:stage:1034743",
+            "description": "Grand Prix of Japan 2023",
+            "scheduled": "2023-09-29T01:45:00+00:00",
+            "scheduled_end": "2023-10-01T07:00:00+00:00",
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1058",
+                "name": "Twin Ring Motegi",
+                "capacity": 68156,
+                "city": "Motegi",
+                "country": "Japan",
+                "coordinates": "36.533358,140.228569",
+                "country_code": "JPN",
+                "length": 4800,
+                "url_official": "http:\/\/www.mobilityland.co.jp\/english\/",
+                "debut": 1999,
+                "timezone": "Asia\/Tokyo"
+            },
+            "stages": [
+                {
+                    "id": "sr:stage:1034745",
+                    "description": "Practice 1",
+                    "scheduled": "2023-09-29T01:45:00+00:00",
+                    "scheduled_end": "2023-09-29T02:30:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1034747",
+                    "description": "Practice 2",
+                    "scheduled": "2023-09-29T06:00:00+00:00",
+                    "scheduled_end": "2023-09-29T07:00:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1034749",
+                    "description": "Practice 3",
+                    "scheduled": "2023-09-30T01:10:00+00:00",
+                    "scheduled_end": "2023-09-30T01:40:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1034753",
+                    "description": "Qualifying",
+                    "scheduled": "2023-09-30T01:50:00+00:00",
+                    "scheduled_end": "2023-09-30T02:30:00+00:00",
+                    "type": "qualifying",
+                    "single_event": false,
+                    "stages": [
+                        {
+                            "id": "sr:stage:1034755",
+                            "description": "Q1",
+                            "scheduled": "2023-09-30T01:50:00+00:00",
+                            "scheduled_end": "2023-09-30T02:05:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1034757",
+                            "description": "Q2",
+                            "scheduled": "2023-09-30T02:15:00+00:00",
+                            "scheduled_end": "2023-09-30T02:30:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        }
+                    ]
+                },
+                {
+                    "id": "sr:stage:1034759",
+                    "description": "Sprint Race",
+                    "scheduled": "2023-09-30T06:00:00+00:00",
+                    "scheduled_end": "2023-09-30T07:00:00+00:00",
+                    "type": "sprint_race",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1034761",
+                    "description": "Race",
+                    "scheduled": "2023-10-01T06:00:00+00:00",
+                    "scheduled_end": "2023-10-01T07:00:00+00:00",
+                    "type": "race",
+                    "single_event": false
+                }
+            ]
+        },
+        {
+            "id": "sr:stage:1034805",
+            "description": "Grand Prix of Bharat 2023",
+            "scheduled": "2023-09-22T05:45:00+00:00",
+            "scheduled_end": "2023-09-24T10:00:00+00:00",
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:2243",
+                "name": "Buddh International Circuit",
+                "capacity": 110000,
+                "city": "Greater Noida",
+                "country": "India",
+                "coordinates": "28.350556,77.535",
+                "country_code": "IND",
+                "curves_left": 8,
+                "curves_right": 8,
+                "length": 5125,
+                "debut": 2011,
+                "url_official": "http:\/\/www.jaypeesports.com",
+                "laps": 60
+            },
+            "stages": [
+                {
+                    "id": "sr:stage:1034807",
+                    "description": "Practice 1",
+                    "scheduled": "2023-09-22T05:45:00+00:00",
+                    "scheduled_end": "2023-09-22T06:30:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1034809",
+                    "description": "Practice 2",
+                    "scheduled": "2023-09-22T10:00:00+00:00",
+                    "scheduled_end": "2023-09-22T11:00:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1034811",
+                    "description": "Practice 3",
+                    "scheduled": "2023-09-23T05:10:00+00:00",
+                    "scheduled_end": "2023-09-23T05:40:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1034815",
+                    "description": "Qualifying",
+                    "scheduled": "2023-09-23T05:50:00+00:00",
+                    "scheduled_end": "2023-09-23T06:30:00+00:00",
+                    "type": "qualifying",
+                    "single_event": false,
+                    "stages": [
+                        {
+                            "id": "sr:stage:1034817",
+                            "description": "Q1",
+                            "scheduled": "2023-09-23T05:50:00+00:00",
+                            "scheduled_end": "2023-09-23T06:05:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1034819",
+                            "description": "Q2",
+                            "scheduled": "2023-09-23T06:15:00+00:00",
+                            "scheduled_end": "2023-09-23T06:30:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        }
+                    ]
+                },
+                {
+                    "id": "sr:stage:1034821",
+                    "description": "Sprint Race",
+                    "scheduled": "2023-09-23T10:00:00+00:00",
+                    "scheduled_end": "2023-09-23T11:00:00+00:00",
+                    "type": "sprint_race",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1034823",
+                    "description": "Race",
+                    "scheduled": "2023-09-24T09:00:00+00:00",
+                    "scheduled_end": "2023-09-24T10:00:00+00:00",
+                    "type": "race",
+                    "single_event": false
+                }
+            ]
+        },
+        {
+            "id": "sr:stage:1035183",
+            "description": "Grand Prix of Indonesia 2023",
+            "scheduled": "2023-10-13T02:45:00+00:00",
+            "scheduled_end": "2023-10-15T07:00:00+00:00",
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:56642",
+                "name": "Mandalika International Circuit",
+                "city": "Lombok",
+                "country": "Indonesia",
+                "coordinates": "-8.895611,116.305823",
+                "country_code": "IDN",
+                "length": 4313,
+                "debut": 2021,
+                "url_official": "https:\/\/themandalikagp.com\/home",
+                "timezone": "Asia\/Makassar"
+            },
+            "stages": [
+                {
+                    "id": "sr:stage:1035185",
+                    "description": "Practice 1",
+                    "scheduled": "2023-10-13T02:45:00+00:00",
+                    "scheduled_end": "2023-10-13T03:30:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1035187",
+                    "description": "Practice 2",
+                    "scheduled": "2023-10-13T07:00:00+00:00",
+                    "scheduled_end": "2023-10-13T08:00:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1035189",
+                    "description": "Practice 3",
+                    "scheduled": "2023-10-14T02:10:00+00:00",
+                    "scheduled_end": "2023-10-14T02:40:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1035193",
+                    "description": "Qualifying",
+                    "scheduled": "2023-10-14T02:50:00+00:00",
+                    "scheduled_end": "2023-10-14T03:30:00+00:00",
+                    "type": "qualifying",
+                    "single_event": false,
+                    "stages": [
+                        {
+                            "id": "sr:stage:1035195",
+                            "description": "Q1",
+                            "scheduled": "2023-10-14T02:50:00+00:00",
+                            "scheduled_end": "2023-10-14T03:05:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1035197",
+                            "description": "Q2",
+                            "scheduled": "2023-10-14T03:15:00+00:00",
+                            "scheduled_end": "2023-10-14T03:30:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        }
+                    ]
+                },
+                {
+                    "id": "sr:stage:1035199",
+                    "description": "Sprint Race",
+                    "scheduled": "2023-10-14T07:00:00+00:00",
+                    "scheduled_end": "2023-10-14T08:00:00+00:00",
+                    "type": "sprint_race",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1035201",
+                    "description": "Race",
+                    "scheduled": "2023-10-15T06:00:00+00:00",
+                    "scheduled_end": "2023-10-15T07:00:00+00:00",
+                    "type": "race",
+                    "single_event": false
+                }
+            ]
+        },
+        {
+            "id": "sr:stage:1035403",
+            "description": "Australian Motorcycle Grand Prix 2023",
+            "scheduled": "2023-10-19T23:45:00+00:00",
+            "scheduled_end": "2023-10-22T04:00:00+00:00",
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1057",
+                "name": "Phillip Island Circuit",
+                "city": "Phillip Island",
+                "country": "Australia",
+                "coordinates": "-38.501418,145.232269",
+                "country_code": "AUS",
+                "debut": 1951,
+                "length": 4445,
+                "url_official": "http:\/\/www.phillipislandcircuit.com.au\/",
+                "timezone": "Australia\/Victoria"
+            },
+            "stages": [
+                {
+                    "id": "sr:stage:1035405",
+                    "description": "Practice 1",
+                    "scheduled": "2023-10-19T23:45:00+00:00",
+                    "scheduled_end": "2023-10-20T00:30:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1035407",
+                    "description": "Practice 2",
+                    "scheduled": "2023-10-20T04:00:00+00:00",
+                    "scheduled_end": "2023-10-20T05:00:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1035409",
+                    "description": "Practice 3",
+                    "scheduled": "2023-10-20T23:10:00+00:00",
+                    "scheduled_end": "2023-10-20T23:40:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1035413",
+                    "description": "Qualifying",
+                    "scheduled": "2023-10-20T23:50:00+00:00",
+                    "scheduled_end": "2023-10-21T00:30:00+00:00",
+                    "type": "qualifying",
+                    "single_event": false,
+                    "stages": [
+                        {
+                            "id": "sr:stage:1035415",
+                            "description": "Q1",
+                            "scheduled": "2023-10-20T23:50:00+00:00",
+                            "scheduled_end": "2023-10-21T00:05:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1035417",
+                            "description": "Q2",
+                            "scheduled": "2023-10-21T00:15:00+00:00",
+                            "scheduled_end": "2023-10-21T00:30:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        }
+                    ]
+                },
+                {
+                    "id": "sr:stage:1035419",
+                    "description": "Sprint Race",
+                    "scheduled": "2023-10-21T04:00:00+00:00",
+                    "scheduled_end": "2023-10-21T05:00:00+00:00",
+                    "type": "sprint_race",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1035421",
+                    "description": "Race",
+                    "scheduled": "2023-10-22T03:00:00+00:00",
+                    "scheduled_end": "2023-10-22T04:00:00+00:00",
+                    "type": "race",
+                    "single_event": false
+                }
+            ]
+        },
+        {
+            "id": "sr:stage:1035623",
+            "description": "Thailand Grand Prix 2023",
+            "scheduled": "2023-10-27T03:45:00+00:00",
+            "scheduled_end": "2023-10-29T08:00:00+00:00",
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:15634",
+                "name": "Chang International Circuit",
+                "city": "Buriram",
+                "country": "Thailand",
+                "coordinates": "14.962512,103.085309",
+                "country_code": "THA",
+                "length": 4554,
+                "debut": 2014,
+                "url_official": "https:\/\/www.bric.co.th\/",
+                "timezone": "Asia\/Bangkok"
+            },
+            "stages": [
+                {
+                    "id": "sr:stage:1035625",
+                    "description": "Practice 1",
+                    "scheduled": "2023-10-27T03:45:00+00:00",
+                    "scheduled_end": "2023-10-27T04:30:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1035627",
+                    "description": "Practice 2",
+                    "scheduled": "2023-10-27T08:00:00+00:00",
+                    "scheduled_end": "2023-10-27T09:00:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1035629",
+                    "description": "Practice 3",
+                    "scheduled": "2023-10-28T03:10:00+00:00",
+                    "scheduled_end": "2023-10-28T03:40:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1035633",
+                    "description": "Qualifying",
+                    "scheduled": "2023-10-28T03:50:00+00:00",
+                    "scheduled_end": "2023-10-28T04:30:00+00:00",
+                    "type": "qualifying",
+                    "single_event": false,
+                    "stages": [
+                        {
+                            "id": "sr:stage:1035635",
+                            "description": "Q1",
+                            "scheduled": "2023-10-28T03:50:00+00:00",
+                            "scheduled_end": "2023-10-28T04:05:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1035637",
+                            "description": "Q2",
+                            "scheduled": "2023-10-28T04:15:00+00:00",
+                            "scheduled_end": "2023-10-28T04:30:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        }
+                    ]
+                },
+                {
+                    "id": "sr:stage:1035639",
+                    "description": "Sprint Race",
+                    "scheduled": "2023-10-28T08:00:00+00:00",
+                    "scheduled_end": "2023-10-28T09:00:00+00:00",
+                    "type": "sprint_race",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1035641",
+                    "description": "Race",
+                    "scheduled": "2023-10-29T07:00:00+00:00",
+                    "scheduled_end": "2023-10-29T08:00:00+00:00",
+                    "type": "race",
+                    "single_event": false
+                }
+            ]
+        },
+        {
+            "id": "sr:stage:1035843",
+            "description": "Grand Prix of Malaysia 2023",
+            "scheduled": "2023-11-10T02:45:00+00:00",
+            "scheduled_end": "2023-11-12T07:00:00+00:00",
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1012",
+                "name": "Sepang International Circuit",
+                "city": "Sepang",
+                "country": "Malaysia",
+                "coordinates": "2.761134,101.73696",
+                "country_code": "MYS",
+                "debut": 1999,
+                "length": 5543,
+                "curves_left": 5,
+                "curves_right": 10,
+                "laps": 56,
+                "url_official": "http:\/\/www.sepangcircuit.com\/",
+                "timezone": "Asia\/Kuala_Lumpur"
+            },
+            "stages": [
+                {
+                    "id": "sr:stage:1035845",
+                    "description": "Practice 1",
+                    "scheduled": "2023-11-10T02:45:00+00:00",
+                    "scheduled_end": "2023-11-10T03:30:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1035847",
+                    "description": "Practice 2",
+                    "scheduled": "2023-11-10T07:00:00+00:00",
+                    "scheduled_end": "2023-11-10T08:00:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1035849",
+                    "description": "Practice 3",
+                    "scheduled": "2023-11-11T02:10:00+00:00",
+                    "scheduled_end": "2023-11-11T02:40:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1035853",
+                    "description": "Qualifying",
+                    "scheduled": "2023-11-11T02:50:00+00:00",
+                    "scheduled_end": "2023-11-11T03:30:00+00:00",
+                    "type": "qualifying",
+                    "single_event": false,
+                    "stages": [
+                        {
+                            "id": "sr:stage:1035855",
+                            "description": "Q1",
+                            "scheduled": "2023-11-11T02:50:00+00:00",
+                            "scheduled_end": "2023-11-11T03:05:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1035857",
+                            "description": "Q2",
+                            "scheduled": "2023-11-11T03:15:00+00:00",
+                            "scheduled_end": "2023-11-11T03:30:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        }
+                    ]
+                },
+                {
+                    "id": "sr:stage:1035859",
+                    "description": "Sprint Race",
+                    "scheduled": "2023-11-11T07:00:00+00:00",
+                    "scheduled_end": "2023-11-11T08:00:00+00:00",
+                    "type": "sprint_race",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1035861",
+                    "description": "Race",
+                    "scheduled": "2023-11-12T06:00:00+00:00",
+                    "scheduled_end": "2023-11-12T07:00:00+00:00",
+                    "type": "race",
+                    "single_event": false
+                }
+            ]
+        },
+        {
+            "id": "sr:stage:1036063",
+            "description": "Grand Prix of Qatar 2023",
+            "scheduled": "2023-11-17T12:45:00+00:00",
+            "scheduled_end": "2023-11-19T18:00:00+00:00",
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1034",
+                "name": "Losail International Circuit",
+                "city": "Doha",
+                "country": "Qatar",
+                "coordinates": "25.490029,51.453791",
+                "country_code": "QAT",
+                "url_official": "http:\/\/www.circuitlosail.com",
+                "curves_left": 6,
+                "curves_right": 10,
+                "debut": 2004,
+                "length": 5400,
+                "laps": 57,
+                "timezone": "Asia\/Qatar"
+            },
+            "stages": [
+                {
+                    "id": "sr:stage:1036065",
+                    "description": "Practice 1",
+                    "scheduled": "2023-11-17T12:45:00+00:00",
+                    "scheduled_end": "2023-11-17T13:30:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1036067",
+                    "description": "Practice 2",
+                    "scheduled": "2023-11-17T17:00:00+00:00",
+                    "scheduled_end": "2023-11-17T18:00:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1036069",
+                    "description": "Practice 3",
+                    "scheduled": "2023-11-18T12:00:00+00:00",
+                    "scheduled_end": "2023-11-18T12:30:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1036073",
+                    "description": "Qualifying",
+                    "scheduled": "2023-11-18T12:40:00+00:00",
+                    "scheduled_end": "2023-11-18T13:20:00+00:00",
+                    "type": "qualifying",
+                    "single_event": false,
+                    "stages": [
+                        {
+                            "id": "sr:stage:1036075",
+                            "description": "Q1",
+                            "scheduled": "2023-11-18T12:40:00+00:00",
+                            "scheduled_end": "2023-11-18T12:55:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1036077",
+                            "description": "Q2",
+                            "scheduled": "2023-11-18T13:05:00+00:00",
+                            "scheduled_end": "2023-11-18T13:20:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        }
+                    ]
+                },
+                {
+                    "id": "sr:stage:1036079",
+                    "description": "Sprint Race",
+                    "scheduled": "2023-11-18T17:00:00+00:00",
+                    "scheduled_end": "2023-11-18T18:00:00+00:00",
+                    "type": "sprint_race",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1036081",
+                    "description": "Race",
+                    "scheduled": "2023-11-19T17:00:00+00:00",
+                    "scheduled_end": "2023-11-19T18:00:00+00:00",
+                    "type": "race",
+                    "single_event": false
+                }
+            ]
+        },
+        {
+            "id": "sr:stage:1036283",
+            "description": "Gran Premio de la Comunitat Valenciana 2023",
+            "scheduled": "2023-11-24T09:45:00+00:00",
+            "scheduled_end": "2023-11-26T15:00:00+00:00",
+            "type": "event",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1056",
+                "name": "Circuit de la Comunitat Valenciana Ricardo Tormo",
+                "city": "Valencia",
+                "country": "Spain",
+                "coordinates": "39.485644,-0.628078",
+                "country_code": "ESP",
+                "debut": 1999,
+                "length": 4005,
+                "url_official": "http:\/\/www.circuitvalencia.com\/",
+                "timezone": "Europe\/Madrid"
+            },
+            "stages": [
+                {
+                    "id": "sr:stage:1036285",
+                    "description": "Practice 1",
+                    "scheduled": "2023-11-24T09:45:00+00:00",
+                    "scheduled_end": "2023-11-24T10:30:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1036287",
+                    "description": "Practice 2",
+                    "scheduled": "2023-11-24T14:00:00+00:00",
+                    "scheduled_end": "2023-11-24T15:00:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1036289",
+                    "description": "Practice 3",
+                    "scheduled": "2023-11-25T09:10:00+00:00",
+                    "scheduled_end": "2023-11-25T09:40:00+00:00",
+                    "type": "practice",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1036293",
+                    "description": "Qualifying",
+                    "scheduled": "2023-11-25T09:50:00+00:00",
+                    "scheduled_end": "2023-11-25T10:30:00+00:00",
+                    "type": "qualifying",
+                    "single_event": false,
+                    "stages": [
+                        {
+                            "id": "sr:stage:1036295",
+                            "description": "Q1",
+                            "scheduled": "2023-11-25T09:50:00+00:00",
+                            "scheduled_end": "2023-11-25T10:05:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        },
+                        {
+                            "id": "sr:stage:1036297",
+                            "description": "Q2",
+                            "scheduled": "2023-11-25T10:15:00+00:00",
+                            "scheduled_end": "2023-11-25T10:30:00+00:00",
+                            "type": "qualifying_part",
+                            "single_event": false
+                        }
+                    ]
+                },
+                {
+                    "id": "sr:stage:1036299",
+                    "description": "Sprint Race",
+                    "scheduled": "2023-11-25T14:00:00+00:00",
+                    "scheduled_end": "2023-11-25T15:00:00+00:00",
+                    "type": "sprint_race",
+                    "single_event": false
+                },
+                {
+                    "id": "sr:stage:1036301",
+                    "description": "Race",
+                    "scheduled": "2023-11-26T14:00:00+00:00",
+                    "scheduled_end": "2023-11-26T15:00:00+00:00",
+                    "type": "race",
+                    "single_event": false
+                }
+            ]
+        }
+    ]
+}
