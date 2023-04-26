@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import NextRace from './NextRace'
 import RaceDay from './RaceDay'
+import Navigat from './Navigat'
 
 function App() {
   const [count, setCount] = useState(0)

@@ -37,7 +37,6 @@ export default function NextRace() {
           <h2>{nextRaceDate}</h2>
           <h2>{post.stages[index].venue.name}</h2>
           <h3>{post.stages[index].venue.country}, {post.stages[index].venue.city}</h3>
-          <h4></h4>
           <Box sx={{ width: 600 }}>
             <Grid container spacing={2} justifyContent="center" alignItems="center">
               <Grid item xs={3}>
