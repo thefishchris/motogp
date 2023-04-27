@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import Grid from "@mui/material/Unstable_Grid2";
 import Card from '@mui/material/Card';
 
-const baseURL = "/api/schedule";
+const baseURL = "/api/schedule.json";
 
 export default function NextRace() {
   const [post, setPost] = React.useState(null);
