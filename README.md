@@ -7,11 +7,13 @@ More features to come!
 
 ### Installation
 
-To get started with the app, clone the GitHub repository to your local machine and install the necessary dependencies.
+Assuming you already have git installed, clone the GitHub repository to your local machine.
 
     git clone https://github.com/thefishchris/motogp.git
-
+    
     cd motogp/motogp
+    
+Install the necessary dependencies.
 
     npm install
 
