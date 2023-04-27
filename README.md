@@ -11,7 +11,7 @@ To get started with the app, clone the GitHub repository to your local machine a
 
     git clone https://github.com/thefishchris/motogp.git
 
-    cd motogp
+    cd motogp/motogp
 
     npm install
 
