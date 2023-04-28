@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Card from '@mui/material/Card';
 import Box from '@mui/material/Box';
-import RaceDay from './RaceDay'
+import RaceDay from './assets/RaceDay'
 import { Hidden } from '@mui/material';
 
 
