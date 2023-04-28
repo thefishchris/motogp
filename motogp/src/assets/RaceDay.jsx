@@ -36,7 +36,7 @@ export default function NextRace() {
   }
   //get the time after we found the proper date
   //hardcoded variable as this is consistent in all API calls
-  var time = parseISO(post.stages[index].stages[4].scheduled);
+  var time = parseISO(post.stages[index].stages[5].scheduled);
 
   //this funtion will pull the time from the date and format it to 12 hour time
   function formatTime(date) {
