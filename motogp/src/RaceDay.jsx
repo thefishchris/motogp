@@ -20,7 +20,8 @@ export default function NextRace() {
   if (!post) return null;
   var nextRaceDate = 'Race Already Happened';
   var index = 0;
-
+  var time = parseISO(post.stages[index].stages[5].scheduled);
+  
   for (var i = 0; i < post.stages.length; i++) {
     const dateB = parseISO(post.stages[i].scheduled_end);
     if (isAfter(dateB, new Date())) {
@@ -32,9 +33,9 @@ export default function NextRace() {
 
   return (
     <div>
-      <Card variant="outlined">
+      <Card variant="outlined" sx={{ width: 600 }}>
         <Typography id="non-linear-slider" gutterBottom>
-          <h2>{nextRaceDate}</h2>
+          <h2>{nextRaceDate} @ {time.getHours()} AM</h2>
           <h2>{post.stages[index].venue.name}</h2>
           <h3>{post.stages[index].venue.country}, {post.stages[index].venue.city}</h3>
           <Box sx={{ width: 600 }}>

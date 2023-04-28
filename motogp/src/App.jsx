@@ -16,9 +16,7 @@ function App() {
           boxShadow: "0 5px 8px 0 rgba(0, 0, 0, 0.3)",
           backgroundColor: "#f2f2f2",
         }}>
-        <Box sx={{ 
-          width: 700
-          }}>
+        <Box>
           <h1>NEXT RACE:</h1>
           <center><RaceDay /></center>
         </Box>
