@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import './App.css'
 import Card from '@mui/material/Card';
+import Box from '@mui/material/Box';
 import RaceDay from './RaceDay'
+import { Hidden } from '@mui/material';
 
 
 function App() {
@@ -14,8 +16,12 @@ function App() {
           boxShadow: "0 5px 8px 0 rgba(0, 0, 0, 0.3)",
           backgroundColor: "#f2f2f2",
         }}>
-        <h1>NEXT RACE:</h1>
-        <RaceDay />
+        <Box sx={{ 
+          width: 700
+          }}>
+          <h1>NEXT RACE:</h1>
+          <center><RaceDay /></center>
+        </Box>
       </Card>
     </div>
   )
