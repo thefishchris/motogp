@@ -22,7 +22,7 @@ Once the dependencies are installed, start the development server by running:
     npm run dev
 
 
-### Docker
+## Docker
 
 Clone the repo
 
