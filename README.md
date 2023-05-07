@@ -26,7 +26,7 @@ Once the dependencies are installed, start the development server by running:
 
 Clone the repo
 
-    git clone
+    git clone https://github.com/thefishchris/motogp.git
 
 CD to the main directory
 
