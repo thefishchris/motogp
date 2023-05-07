@@ -22,3 +22,14 @@ Once the dependencies are installed, start the development server by running:
     npm run dev
 
 
+### Docker
+
+Clone the repo
+    git clone
+CD to the main directory
+    cd motogp/motogp
+Build the image
+    sudo docker build -t motogp .
+Run the image
+    sudo docker run -p 5173:5173 motogp
+
