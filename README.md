@@ -32,11 +32,6 @@ CD to the main directory
 
     cd motogp/motogp
 
-Build the image
-    
-    sudo docker build -t motogp .
-
 Run the image
     
-    sudo docker run -p 5173:5173 motogp
-
+    sudo docker compose up -d
