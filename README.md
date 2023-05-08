@@ -34,4 +34,4 @@ CD to the main directory
 
 Run the image
     
-    sudo docker compose up -d
+    docker compose up -d
